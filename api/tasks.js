@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGO_URI = "YOUR_MONGO_URL";
+const MONGO_URI = "mongodb+srv://mern2026:mern2026@cluster0.c4yuhix.mongodb.net/mymernapp?retryWrites=true&w=majority ";
 
 let isConnected = false;
 
