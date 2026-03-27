@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input section */
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.input-box button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #4caf50;
+}
+
+.update-btn {
+  background: #2196f3;
+}
+
+/* Task list */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin-left: 5px;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit {
+  background: orange;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
